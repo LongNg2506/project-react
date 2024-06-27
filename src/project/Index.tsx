@@ -51,6 +51,7 @@ const ProjectMovie = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={4}
+          spaceBetween={50}
           navigation
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
