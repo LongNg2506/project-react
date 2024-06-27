@@ -1,0 +1,61 @@
+.btn_primary{
+    background-color: rgb(255,103,0);
+    color: white;
+    border: none;
+    outline: none;
+    appearance: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
+.btn_secondary{
+    background-color: rgb(49,52,67);
+    color: white;
+    border: none;
+    outline: none;
+    appearance: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
+.btn_tertiary{
+    background-color: white;
+    color: rgb(49,52,67);
+    border: 1px solid rgb(49,52,67);
+    outline: none;
+    appearance: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
+.btn_tertiary:hover{
+    background-color: rgb(49,52,67);
+    color: white;
+    border: 1px solid rgb(49,52,67);
+    outline: none;
+    appearance: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+

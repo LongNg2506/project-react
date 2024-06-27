@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn_default{
+        @apply border-black border-2 text-black p-2 rounded-lg
+    }
+
+    .btn_click{
+        @apply border-blue-600 border-2 text-blue-600 p-2 rounded-lg
+    }
+
+    .btn_play{
+        @apply bg-slate-400 text-white rounded-full p-3 text-base
+    }
+
+}
+
+
+
+.title-movie {
+    transform: translateY(-50%);
+    
+}
+
+.nav-button {
+    margin: 0 auto;
+}
