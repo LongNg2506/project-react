@@ -67,7 +67,7 @@ const ProjectMovie = () => {
                 />
                 <div className="w-full flex justify-between items-center absolute bottom-0 ">
                   <div className="max-w-64 pl-3">
-                    <p className="text-[20px] max-w-52 font-bold text-white">
+                    <p className="text-[20px] max-w-52 font-bold text-white whitespace-normal">
                       {movie.original_title}
                     </p>
                     <p className="text-[20px] text-white">action</p>
